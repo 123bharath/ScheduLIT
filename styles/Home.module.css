@@ -1,0 +1,26 @@
+.ongoing__event__container {
+  max-width: 75rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.ongoing__event__head {
+  font-weight: bold;
+  text-align: center;
+  font-size: 2rem;
+  margin: 1rem;
+  margin-bottom: 1.5rem;
+  color: #1e0a3c;
+  text-transform: uppercase;
+}
+.events__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 1rem;
+}
+
+@media screen and (max-width: 560px) {
+  .ongoing__event__head {
+    font-size: 1.5rem;
+  }
+}

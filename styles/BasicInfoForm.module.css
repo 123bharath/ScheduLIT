@@ -1,0 +1,32 @@
+.container {
+  margin: 2rem 0;
+}
+
+.event__select {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+
+.email__ph__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.email__div,
+.phone__div {
+  flex: 0 1 45%;
+}
+
+@media (max-width: 630px) {
+  .email__ph__container {
+    flex-direction: column;
+  }
+
+  .email__div,
+  .phone__div {
+    width: 100%;
+  }
+}

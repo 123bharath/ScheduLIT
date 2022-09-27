@@ -1,0 +1,53 @@
+.container {
+  margin: 2rem 0;
+}
+
+.radio__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.radio__div {
+  flex: 0 1 30%;
+  margin: 0 1rem;
+}
+
+.radio__div input {
+  display: none;
+}
+
+.radio__label {
+  width: 100%;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #dbdae3;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  padding: 12px 8px;
+  transition: background-color 0.2s ease, border 0.2s ease, color 0.2s ease;
+}
+
+.radio__active {
+  border: 1px solid #3659e3;
+  background-color: rgba(54, 89, 227, 0.1);
+  color: #3659e3;
+}
+.event__venue__div {
+  margin: 1rem;
+}
+.textarea {
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  padding: 0.2rem 0.5rem;
+  font-size: 15px;
+}
+
+@media (max-width: 520px) {
+  .radio__div {
+    margin: 0 0.5rem;
+  }
+}

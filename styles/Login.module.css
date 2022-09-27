@@ -1,0 +1,114 @@
+.signUp__container {
+  width: 100%;
+  margin: 0rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.form__container,
+.img__container {
+  flex: 0 1 50%;
+}
+
+.form__container {
+  margin-top: 2rem;
+}
+
+.img {
+  max-width: 100%;
+  width: 100%;
+  max-height: 90vh;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  /* aspect-ratio: 1/1; */
+}
+
+.form__container h1 {
+  font-size: 3.25rem;
+  margin-bottom: 1.5rem;
+  max-width: 400px;
+  width: 100%;
+  margin-inline: auto;
+}
+
+#signUp__form {
+  margin-inline: auto;
+  display: block;
+  max-width: 400px;
+  width: 100%;
+}
+
+.or__line {
+  text-align: center;
+  position: relative;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.or__line::before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 46%;
+  top: 12px;
+  left: 0;
+  background: #b3b3b3;
+}
+
+.or__line::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 46%;
+  top: 12px;
+  right: 0;
+  background: #b3b3b3;
+}
+
+.manual__signUp__container h2 {
+  margin: 1rem 0;
+  text-align: center;
+  font-size: 22px;
+}
+
+#userName {
+  margin-bottom: 0.3rem;
+}
+
+.manual__signUp {
+  background: #1ed760;
+  color: #121212;
+  transition: transform 0.2s ease;
+  width: 40%;
+  margin: 1.5rem auto 0 auto;
+}
+
+.manual__signUp:hover {
+  background: #1ed760;
+  transform: scale(1.02);
+}
+
+.login__link {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+@media (max-width: 860px) {
+  .img__container {
+    display: none;
+  }
+  .signUp__container {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form__container {
+    flex: 0 1 100%;
+    margin: 1rem 1.5rem;
+  }
+  .form__container h1 {
+    font-size: 2.5rem;
+  }
+}
