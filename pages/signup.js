@@ -128,7 +128,7 @@ export default function Signup() {
       </div>
       <div className={styles.img__container}>
         <img
-          src="/assets/login_img.jpg"
+          src="/login_img.jpg"
           alt="login illustration"
           className={styles.img}
         />
