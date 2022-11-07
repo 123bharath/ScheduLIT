@@ -1,34 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SCHEDULIT
+An Event scheduling platform for education,sports,cultural,charity,etc.
 
-## Getting Started
+## Table of contents
 
-First, run the development server:
+- [Overview](#overview)
+  - [Description](#Description)
+  - [Features](#features)
+  - [Links](#links)
+  - [Screenshot](#screenshot)
+- [Team](#team)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Description
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- An Event scheduling platform for education,sports,cultural,charity,etc.
+- It lists upcomming/ongoing events across the world or online
+- user friendly UI and responsive to any device mobile,desktop,tablet etc
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### Features
+- Website is built using Nextjs (reactjs framework) which provides SSG (Static Site Generation) which is faster to load website, provides smooth UI user interaction, good SEO (Search Engine Optimisation), a most popular library used by developers
+- User authentication is provided to create new event schedule
+- Website has a user-friendly form to schedule a new event based on event type, event venue, poster etc
+- Firebase (a google service) is used for data management, user authentication
+- It uses firebase firestore which is real time nosql database which establishes real-time connection with client and server so no refresh of entire website to fetch new data from server
+- Website has user friendly UI and it is responsive to any device screen like mobile,desktop,tablet etc
+- Site is hosted in github pages using github action provided by github company
+- Complete source code is in our github and it is open source
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Links
+- Live site url: [https://123bharath.github.io/ScheduLIT](https://123bharath.github.io/ScheduLIT)
+- Source code url: [https://github.com/123bharath/ScheduLIT](https://github.com/123bharath/ScheduLIT)
 
-## Learn More
+### Screenshot
+![homePage](./screenshot/homepage.jpg)
+![form](./screenshot/form.jpg)
+![auth](./screenshot/login.jpg)
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Team
+- [Bharath T R](https://github.com/123bharath)
+- [Bharath G T]()
+- [Ravi Hegde]()
+- [Vijay Naik]()
+- [Vasundar Bharghav]()
+ 
